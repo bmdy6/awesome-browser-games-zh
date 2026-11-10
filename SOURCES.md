@@ -27,6 +27,13 @@
 
 ## 图片与版权
 
-网页和 README 引用的游戏图，均使用对应 GitHub 仓库的公开 raw.githubusercontent.com 图片地址（例如 Claude of Tanks、Voxel Musou、IsoCity、Long Wind、Operation Ironhold）。这些图片没有复制进本仓库，也没有被宣称为本项目原创作品。公开地址可引用不等于已经取得再分发许可。如权利人不希望外链展示，请通过 Issue 联系，我们会移除。不能擅自搬运商业游戏角色、音乐与 ROM。
+网页和 README 引用的游戏图，优先使用对应 GitHub 仓库的公开 raw.githubusercontent.com 图片地址；非开源游戏使用官网 og:image / twitter:image（例如 Claude of Tanks、Voxel Musou、IsoCity、Long Wind、Operation Ironhold）。这些图片没有复制进本仓库，也没有被宣称为本项目原创作品。公开地址可引用不等于已经取得再分发许可。如权利人不希望外链展示，请通过 Issue 联系，我们会移除。不能擅自搬运商业游戏角色、音乐与 ROM。
 
 本站只负责导航，无账户、支付、跟踪与游戏托管；点击「去玩」会进入第三方网站，第三方行为及政策以其官网为准。
+
+## 本仓许可范围
+
+This license applies to the original catalog site code and repository-authored
+text only; third-party games, trademarks, images and media are excluded.
+
+LICENSE 保留标准 MIT 正文；此处保留原有范围声明，不改变许可含义。外链图片不适用本仓 MIT。图片可访问性仅代表检查当时返回 200 和 image/*，不保证未来可用；缺图和加载失败时显示统一文字卡片。
