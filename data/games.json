@@ -59,7 +59,7 @@
         "涂地",
         "2026"
       ],
-      "cover_url": "",
+      "cover_url": "https://inkwavegame.com/_astro/hero.C6TF20Sq.jpg",
       "note": "官网声称 MIT 开源，但 2026-11-09 源码仓库返回 404；Chrome/Edge 体验更佳。",
       "featured": true,
       "license": "",
@@ -80,7 +80,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://www.shellshock.io/img/previewImage_shellShockers.webp",
       "note": "非开源，收录的是官方试玩入口。",
       "featured": true,
       "license": "",
@@ -101,7 +101,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://assets.krunker.io/promo/og_1200x630.jpg",
       "note": "部分浏览器扩展可能影响游戏加载。",
       "featured": false,
       "license": "",
@@ -122,7 +122,7 @@
         "多人",
         "夺旗"
       ],
-      "cover_url": "",
+      "cover_url": "https://narrow.one/static/img/thumb.png",
       "note": "官方入口为 narrow.one，不使用第三方镜像。",
       "featured": false,
       "license": "",
@@ -143,7 +143,7 @@
         "吃鸡",
         "开源"
       ],
-      "cover_url": "",
+      "cover_url": "https://raw.githubusercontent.com/HasangerGames/suroi/master/client/public/img/backgrounds/github_background.png",
       "note": "官网在 2026 年仍发布活动公告。",
       "featured": false,
       "license": "开源，具体文件授权以原仓库为准",
@@ -185,7 +185,7 @@
         "FPS",
         "多人"
       ],
-      "cover_url": "",
+      "cover_url": "https://warbrokers.io/img/fbthumb.jpg",
       "note": "多人在线游戏，网络情况影响可玩性。",
       "featured": false,
       "license": "",
@@ -206,7 +206,7 @@
         "特色",
         "2026"
       ],
-      "cover_url": "",
+      "cover_url": "https://raw.githubusercontent.com/corosolto/client/main/public/og-image.jpg",
       "note": "官网可能以葡萄牙语显示；实际匹配状态待验。",
       "featured": false,
       "license": "AGPL-3.0",
@@ -250,7 +250,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://tankionline.com/en/wp-content/themes/tanki2023/img/icon/logo_s.png",
       "note": "浏览器游玩受账户和地区服务影响，可能含内购。",
       "featured": false,
       "license": "",
@@ -271,7 +271,7 @@
         "赛车",
         "多人"
       ],
-      "cover_url": "",
+      "cover_url": "https://smashkarts.io/images/icon-144.png",
       "note": "官方站支持浏览器和移动设备入口。",
       "featured": true,
       "license": "",
@@ -292,7 +292,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://wings.io/images/thumbnail.png",
       "note": "官方地址待后续实玩验收。",
       "featured": false,
       "license": "",
@@ -314,7 +314,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://chronodivide.com/img/og-image.jpg",
       "note": "粉丝制作的浏览器重实现，Beta；闭源，不代表拥有原作素材授权。",
       "featured": true,
       "license": "",
@@ -336,7 +336,7 @@
         "多人",
         "中文"
       ],
-      "cover_url": "",
+      "cover_url": "https://raw.githubusercontent.com/openfrontio/OpenFrontIO/main/proprietary/images/KeyArt.jpg",
       "note": "原仓库已有 zh-CN 和 zh-TW 语言包；代码 AGPL，素材另有许可。",
       "featured": true,
       "license": "AGPL-3.0",
@@ -378,7 +378,7 @@
         "多人",
         "领土"
       ],
-      "cover_url": "",
+      "cover_url": "https://kiomet.com/data/1920x1080.png",
       "note": "可参考官网 help 了解操作。",
       "featured": false,
       "license": "",
@@ -400,7 +400,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://raw.githubusercontent.com/freeciv/freeciv-web/develop/freeciv-web/src/main/webapp/javascript/webgl/freeciv-webgl.png",
       "note": "官网可选择单人、多人、热座和每日回合模式。",
       "featured": false,
       "license": "开源（见原仓库）",
@@ -421,7 +421,7 @@
         "实验",
         "2026"
       ],
-      "cover_url": "",
+      "cover_url": "https://raw.githubusercontent.com/simonw/battledrones/main/art/raw/keyart-landscape.webp",
       "note": "有趣的新项目，GitHub 热度不高，收在候选精选而非爆款。",
       "featured": false,
       "license": "Apache-2.0",
@@ -485,7 +485,7 @@
         "回合制",
         "热门"
       ],
-      "cover_url": "",
+      "cover_url": "https://raw.githubusercontent.com/pagefaultgames/pokerogue-assets/beta/images/logo.png",
       "note": "非官方粉丝游戏；代码 AGPL，精灵与其他资源的版权另算。",
       "featured": false,
       "license": "AGPL-3.0（代码）",
@@ -527,7 +527,7 @@
         "多人",
         "像素"
       ],
-      "cover_url": "",
+      "cover_url": "https://bloxd.io/textures/miscImages/bloxd_io_free_online_games.jpg",
       "note": "官方网页需要启用 JavaScript。",
       "featured": false,
       "license": "",
@@ -548,7 +548,7 @@
         "小镇",
         "2026"
       ],
-      "cover_url": "",
+      "cover_url": "https://raw.githubusercontent.com/Brayden/townies/main/public/town-welcome.jpg",
       "note": "初期版本可能需要账户；人数与匹配以官网为准。",
       "featured": false,
       "license": "Apache-2.0",
@@ -569,7 +569,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://tetr.io/res/tetrio_social.png",
       "note": "游戏官方不支持第三方修改客户端；这里只提供入口。",
       "featured": false,
       "license": "",
@@ -611,7 +611,7 @@
         "多人",
         "聚会"
       ],
-      "cover_url": "",
+      "cover_url": "https://skribbl.io/img/thumbnail.png",
       "note": "支持私人房间。",
       "featured": false,
       "license": "",
@@ -674,7 +674,7 @@
         "多人",
         "经典"
       ],
-      "cover_url": "",
+      "cover_url": "https://slither.io/s/fbthumb5.jpg",
       "note": "经典但仍具可玩性，作为少量老牌例外收录。",
       "featured": false,
       "license": "",

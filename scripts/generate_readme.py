@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from html import escape
 from pathlib import Path
 import sys
 
@@ -29,6 +30,15 @@ def source_badge(game: dict) -> str:
 
 def chinese_badge(game: dict) -> str:
     return {"yes": "✅ 已确认", "partial": "🟡 部分中文", "unknown": "待核对"}[game["zh_status"]]
+
+
+def cover(game: dict, width: int = 200) -> str:
+    name = escape(game["name"], quote=True)
+    url = escape(game["play_url"], quote=True)
+    image = escape(game.get("cover_url", ""), quote=True)
+    if image:
+        return f'<a href="{url}"><img src="{image}" width="{width}" height="{round(width * 9 / 16)}" alt="{name} 官方图片"></a>'
+    return f'<a href="{url}"><strong>🎮 {name}</strong><br>官方图片暂缺 · 点击游玩</a>'
 
 
 def generate(data: dict) -> str:
@@ -58,7 +68,7 @@ def generate(data: dict) -> str:
             image = game.get("cover_url", "")
             content = (
                 '<td width="50%" valign="top">'
-                + (f'<a href="{game["play_url"]}"><img src="{image}" width="100%" alt="{title} 原项目图片"></a><br>' if image else "")
+                + cover(game, 320) + "<br>"
                 + f'<strong>{title}</strong><br>'
                 + f'{clean(game["summary"])}<br>'
                 + f'<a href="{game["play_url"]}">▶ 官方试玩</a>'
@@ -76,8 +86,8 @@ def generate(data: dict) -> str:
             f'<a id="{c["id"]}"></a>',
             f"### {c['emoji']} {c['name']}（{len(within)}）",
             "",
-            "| 游戏 | 为什么值得试 | 入口 | 源码 | 中文 |",
-            "| --- | --- | --- | --- | --- |",
+            "| 官方图片 | 游戏 | 为什么值得试 | 入口 | 源码 | 中文 |",
+            "| --- | --- | --- | --- | --- | --- |",
         ])
         for game in within:
             name = clean(game["name"])
@@ -86,7 +96,7 @@ def generate(data: dict) -> str:
             if note:
                 reason += f"<br><small>ℹ️ {note}</small>"
             lines.append(
-                f"| **{name}** | {reason} | [🎮 去玩]({game['play_url']}) "
+                f"| {cover(game)} | **{name}** | {reason} | [🎮 去玩]({game['play_url']}) "
                 f"| {source_badge(game)} | {chinese_badge(game)} |"
             )
         lines.append("")

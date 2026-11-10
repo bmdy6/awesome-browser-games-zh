@@ -55,7 +55,12 @@
   }
 
   function cover(game, type, index) {
-    const holder = make("div", type);
+    const holder = make("a", type);
+    holder.href = safeUrl(game.play_url);
+    holder.target = "_blank";
+    holder.rel = "noopener noreferrer";
+    holder.setAttribute("aria-label", game.name + " 官方游玩页");
+    holder.appendChild(make("span", "cover-fallback", game.name + " · 官方图片暂缺"));
     const palette = colors[game.category] || ["#33445d", "#634e8b"];
     holder.style.setProperty("--cover-a", palette[0]);
     holder.style.setProperty("--cover-b", palette[1]);
@@ -63,7 +68,7 @@
     holder.appendChild(make("span", "cover-glare"));
     if (safeUrl(game.cover_url)) {
       const img = make("img");
-      img.alt = game.name + " 原作者项目图片";
+      img.alt = game.name + " 官方图片";
       img.loading = "lazy";
       img.decoding = "async";
       img.referrerPolicy = "no-referrer";
